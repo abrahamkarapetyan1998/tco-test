@@ -8,7 +8,6 @@ Then run these commands
 
 ```bash
 composer install
-composer update
 php artisan key:generate
 php artisan migrate --seed 
 
