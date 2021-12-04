@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="card mb-3">
-                <img class="card-img"   src="{{asset('/storage/products/'.$product->image)}}" alt="Card image">
+                <img class="card-img"   src="{{asset('/storage/'.$product->image)}}" alt="Card image">
                  <div class="card-body">
                     <h5 class="card-title">{{$product->title}}</h5>
                     <p class="card-text"><b>Description:</b> {{$product->description}}</p>
